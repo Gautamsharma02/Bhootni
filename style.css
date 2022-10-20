@@ -41,11 +41,8 @@ body {
 }
 
 .nextBtn {
-    bottom: 40px;
-}
-
-#nextHere {
-    margin-left: 100px;
+    top: 40px;
+    right: 40px;
 }
 
 .container {
