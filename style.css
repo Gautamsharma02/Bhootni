@@ -21,20 +21,31 @@ body {
     position: relative;
 }
 
-#clickBtn {
+.button {
     background-color: #000000;
     border: 1px solid #fff;
     border-radius: 4px;
     color: #fff;
     position: absolute;
-    top: 40px;
     cursor: pointer;
     padding: 10px 20px;
     transition: all 0.2s ease-in-out;
 }
 
-#clickBtn:hover {
+#clickBtn {
+    top: 40px;
+}
+
+.clickBtn:hover {
     box-shadow: 0 0 10px rgb(236, 232, 232);
+}
+
+.nextBtn {
+    bottom: 40px;
+}
+
+#nextHere {
+    margin-left: 100px;
 }
 
 .container {
@@ -80,4 +91,12 @@ body {
 .right {
     right: -100%;
     transition: all 0.4s ease-in-out;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
 }
