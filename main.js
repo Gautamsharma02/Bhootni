@@ -1,13 +1,11 @@
-$("#clickBtn").click(function() {
-    $('#left').toggle('left')
-});
+// $("#clickBtn").click(function() {
+//     $('#left').toggle('left')
+// });
 
-$("#clickBtn").click(function() {
-    $('#right').toggle('right')
-});
-$("#clickBtn").click(function() {
-    $('#container').addClass("top-200");
-});
+// $("#clickBtn").click(function() {
+//     $('#right').toggle('right')
+// });
+
 // $("#clickBtn").click(function() {
 //     $('#nextBtn').addClass('block')
 // });
