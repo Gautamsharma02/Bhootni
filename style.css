@@ -19,7 +19,6 @@ body {
     flex-direction: column;
     background: #091c34;
     position: relative;
-    overflow: auto;
 }
 
 .top-200 {
@@ -58,7 +57,7 @@ body {
     font-weight: bold;
     text-transform: capitalize;
     background: #091c34;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 0 5px;
 }
 
