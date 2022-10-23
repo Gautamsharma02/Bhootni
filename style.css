@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     background: #091c34;
     position: relative;
+    padding: 10px;
 }
 
 .top-200 {
